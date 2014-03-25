@@ -8,7 +8,7 @@ public class Venda {
 	private double valorVenda;
 	private Produto produto;
 	private Cliente cliente;
-	private Vendedor vendedor;
+	protected Vendedor vendedor;
 	
 	public void efetuarVenda(Produto produto, int qtd, double desconto){
 		this.produto = produto;
